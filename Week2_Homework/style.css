@@ -1,0 +1,21 @@
+body {
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    text-align: center;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 90px;
+}
+
+#question-div {
+    font-family: Futura, sans-serif;
+    font-size: 40px;
+}
+
+button {
+    font-family: Futura, sans-serif;
+    font-size: 15px;
+    width: 7%;
+    height: 3%;
+}
