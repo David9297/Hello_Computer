@@ -1,0 +1,76 @@
+{
+  "id": "b61c81dc-adae-41c0-a0e0-1edd6250ab82",
+  "name": "begin_roast",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "begin_roast-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "2ff3bcfc-10cf-48f7-a22b-b5c61437ea03",
+          "name": "roast",
+          "required": false,
+          "dataType": "@roast",
+          "value": "$roast",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "a0cd19a6-8b15-483b-b58a-c1c0bde25318",
+          "name": "amountOfRoast",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$amountOfRoast",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How bad do you want to be roasted?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok. The roast is starting now. How badly do you want to be roasted?",
+            "I\u0027m ready to grill you. How much should I grill you?",
+            "Of course. Let\u0027s fry you. How bad do you want to be fried?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

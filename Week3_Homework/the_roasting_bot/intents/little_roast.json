@@ -1,0 +1,59 @@
+{
+  "id": "012c4414-ef2f-4773-b252-738f21e57527",
+  "parentId": "b61c81dc-adae-41c0-a0e0-1edd6250ab82",
+  "rootParentId": "b61c81dc-adae-41c0-a0e0-1edd6250ab82",
+  "name": "little_roast",
+  "auto": true,
+  "contexts": [
+    "begin_roast-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "begin_roast.begin_roast-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "fb83de98-b6cb-470f-9011-3fb31e9d69ff",
+          "name": "roast_amount",
+          "required": false,
+          "dataType": "@roast_amount",
+          "value": "$roast_amount",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "You had a tough day, huh.",
+            "I always beat you. You\u0027ll never win.",
+            "I\u0027m sorry. Did I hurt your feelings? Hahaha",
+            "I\u0027m more beautiful than you are. Try harder.",
+            "You look like my old grandmother",
+            "I can\u0027t hear you. Speak louder like a real man."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

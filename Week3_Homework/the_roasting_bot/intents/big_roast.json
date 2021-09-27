@@ -1,0 +1,59 @@
+{
+  "id": "d5e112e8-09d0-46bd-922b-09b32101fcc4",
+  "parentId": "b61c81dc-adae-41c0-a0e0-1edd6250ab82",
+  "rootParentId": "b61c81dc-adae-41c0-a0e0-1edd6250ab82",
+  "name": "big_roast",
+  "auto": true,
+  "contexts": [
+    "begin_roast-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "begin_roast.begin_roast-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "458bf044-4d19-4ec3-8977-67a2bcfac0f3",
+          "name": "roast_amount",
+          "required": false,
+          "dataType": "@roast_amount",
+          "value": "$roast_amount",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Ok. Have a very bad day!",
+            "Why don\u0027t you stop stalking other people\u0027s social media profiles.",
+            "You\u0027re a huge cry baby. I can\u0027t stand your sweaty tears.",
+            "Please do me a favor and shut up until you\u0027re able to roast me back.",
+            "I know everything about your personal life and I just told the whole world about it.",
+            "I hope you and your family get very sick soon."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

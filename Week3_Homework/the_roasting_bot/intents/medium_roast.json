@@ -1,0 +1,59 @@
+{
+  "id": "f40e92a0-3c9b-453b-a6c6-c32ed871c08e",
+  "parentId": "b61c81dc-adae-41c0-a0e0-1edd6250ab82",
+  "rootParentId": "b61c81dc-adae-41c0-a0e0-1edd6250ab82",
+  "name": "medium_roast",
+  "auto": true,
+  "contexts": [
+    "begin_roast-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "begin_roast.begin_roast-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "334c9de8-f8c8-4904-94e4-755cf62966f6",
+          "name": "roast_amount",
+          "required": false,
+          "dataType": "@roast_amount",
+          "value": "$roast_amount",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Go lock yourself in a dark room for the rest of your life.",
+            "Nobody likes you at all.",
+            "Please stop talking because you sound like a broken record.",
+            "Why don\u0027t you get a job right now instead of playing video games at home every day.",
+            "I can\u0027t believe you stink so much. I\u0027m getting out of here.",
+            "I\u0027m way smarter than you. What are you going to do about it?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
