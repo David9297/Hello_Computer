@@ -1,0 +1,71 @@
+{
+  "id": "b61c81dc-adae-41c0-a0e0-1edd6250ab82",
+  "name": "begin_roast",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "begin_roast-followup",
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "824fe198-0d1e-4095-9ae3-bfbbeb82a868",
+          "name": "roast",
+          "required": false,
+          "dataType": "@roast",
+          "value": "$roast",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "a752659f-b73a-43ce-9f87-fcfff268c7b0",
+          "name": "amountOfRoast",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$amountOfRoast",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How bad do you want to be roasted?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
