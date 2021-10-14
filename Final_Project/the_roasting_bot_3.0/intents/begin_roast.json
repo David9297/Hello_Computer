@@ -1,0 +1,90 @@
+{
+  "id": "b61c81dc-adae-41c0-a0e0-1edd6250ab82",
+  "name": "begin_roast",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "begin_roast-followup",
+          "lifespan": 10
+        }
+      ],
+      "parameters": [
+        {
+          "id": "2a9c67e9-fce7-4470-94f6-1c31efb9d5ad",
+          "name": "roast",
+          "required": false,
+          "dataType": "@roast",
+          "value": "$roast",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "693be068-efb7-4057-9b1d-5bd3a6995253",
+          "name": "amountOfRoast",
+          "required": false,
+          "dataType": "@sys.any",
+          "value": "$amountOfRoast",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How bad do you want to be roasted?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "9345cc96-cb1b-4225-9edc-b0d6d49992df",
+          "name": "name",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "value": "$name",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What is your name?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
